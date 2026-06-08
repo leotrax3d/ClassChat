@@ -40,7 +40,7 @@ $attachDir = Join-Path $chatDir "attachments"
 $afkDir    = Join-Path $chatDir "afk"
 
 # NEU: Kanaele definieren
-$script:channels = @("allgemein", "hausaufgaben", "gaming", "offtopic")
+$script:channels = @("allgemein", "unterricht", "fragen", "offtopic")
 $script:currentChannel = "allgemein"
 $script:chatFile = Join-Path $chatDir "chat_$($script:currentChannel).log"
 
